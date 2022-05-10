@@ -10,4 +10,8 @@ public class HelloWorldController {
     public String toPage1(){
         return "page1";
     }
+    @RequestMapping(value = "/target")
+    public String toPage2(){
+        return "page2";
+    }
 }
